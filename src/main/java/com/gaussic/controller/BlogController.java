@@ -23,7 +23,7 @@ public class BlogController {
     @Autowired
     UserRepository userRepository;
 
-    // 查看所有博文
+    // 查看所有博文88
     @RequestMapping(value = "/admin/blogs", method = RequestMethod.GET)
     public String showBlogs(ModelMap modelMap) {
         List<BlogEntity> blogList = blogRepository.findAll();
